@@ -25,10 +25,9 @@ The final result is a working compiler that translates a simplified C++-like lan
 
 ## HW2 – Parser
 
-```
-Implementing a full _hash table_ or _linked list_ felt overkill,
+
+> Implementing a full *hash table* or *linked list* felt overkill,
 so the Symbol Table is built with a simple **2-D dynamic array**. It worked, at least.
-```
 
 - LALR(1) grammar using Yacc/Bison
 - Grammar for expressions, statements, functions
@@ -68,9 +67,9 @@ so the Symbol Table is built with a simple **2-D dynamic array**. It worked, at 
   - returns
   - scope handling
 
-🚧 TODO
-Finish full AST → Java ASM translation
+## 🚧 TODO
+- [ ] Finish full AST → Java ASM translation
 (currently implemented up to subtask06 – if)
 
-🔖 Note
+## 🔖 Note
 The .zip file contains sample answer code — huge shout-out to the TAs 🙏 Orz
